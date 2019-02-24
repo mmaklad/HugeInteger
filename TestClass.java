@@ -2,7 +2,7 @@
  *
  * @author moham
  */
-public class Lab_1_test_class {
+public class TestClass {
     /**
      * @param args the command line arguments
      */
