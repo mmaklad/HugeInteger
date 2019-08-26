@@ -3,9 +3,7 @@
  * @author moham
  */
 
-//import java.lang.Math; //imported math library
 import java.util.Random;
-
 
 public class HugeInteger {
     
@@ -34,7 +32,7 @@ public class HugeInteger {
         
         if(negativeMarker == true){
             for(int i=1; i<(arrayLength+1); i++){
-            //This if statement will check if the character that we are looking at is a digit or not. If not, it will throw an exception.
+                //This if statement will check if the character that we are looking at is a digit or not. If not, it will throw an exception.
                 if(Character.isDigit(val.charAt(i)) == false){
                     throw new IllegalArgumentException("String cannot contain anything but numbers and a negative sign at the beginning.");
                 }
@@ -44,7 +42,7 @@ public class HugeInteger {
         
         else if(negativeMarker == false){
             for(int i=0; i<arrayLength; i++){
-            //This if statement will check if the character that we are looking at is a digit or not. If not, it will throw an exception.
+                //This if statement will check if the character that we are looking at is a digit or not. If not, it will throw an exception.
                 if(Character.isDigit(val.charAt(i)) == false){
                     throw new RuntimeException("String cannot contain anything but numbers and a negative sign at the beginning.");
                 }
